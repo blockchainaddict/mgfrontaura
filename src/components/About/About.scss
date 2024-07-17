@@ -1,0 +1,25 @@
+.about-wrapper{
+    width: 80%;
+    margin: 5rem auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .about-content{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    
+        .about-description{
+            p{
+                text-align: justify;
+            }
+        }
+
+        img{
+            width: auto;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+@import "../../style/variables.scss";
+
+header {
+  background-color: $papaya-whip;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+
+  nav {
+    ul {
+      display: flex;
+      justify-content: right;
+      margin: 0;
+      gap: 1rem;
+
+      li:hover {
+        cursor: pointer;
+        text-decoration: underline;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .social-icons,
+  .title,
+  nav {
+    flex: 1;
+  }
+
+  .title {
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+
+    h2{
+        margin: 0;
+    }
+  }
+}

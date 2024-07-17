@@ -1,0 +1,32 @@
+.gallery-main-wrapper{
+    h2{
+        text-align: center;
+    }
+
+    opacity: 0;
+    animation: fade-in 1.5s ease-in-out forwards;
+
+    @keyframes fade-in {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+}
+
+.gallery-container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+
+    img{
+        width: 30%;
+    }
+}
