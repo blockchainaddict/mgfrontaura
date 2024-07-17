@@ -9,6 +9,11 @@
   font-style: normal;
 }
 
+p{
+  margin: 0;
+}
+
+
 body {
   margin: 0;
   font-family: 'Nimbus Sans TW01Con';
@@ -29,4 +34,7 @@ li{
 
 a{
   text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  color: inherit;
+
 }

@@ -1,7 +1,7 @@
 @import "../../style/variables.scss";
 
 header {
-  background-color: $papaya-whip;
+  // background-color: $primary;
   font-weight: 500;
   display: flex;
   justify-content: space-between;
@@ -31,10 +31,16 @@ header {
 
   .title {
     text-align: center;
-    font-family: "Dancing Script", cursive;
 
     h2{
         margin: 0;
+        font-family: "Dancing Script", cursive;
     }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  nav{
+    display: none;
   }
 }

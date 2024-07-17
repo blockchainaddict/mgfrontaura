@@ -12,7 +12,7 @@ function Header() {
       </div>
 
       <div className="title">
-          <h2>Magu Frontaura</h2>
+          <h2><a href="/">Magu Frontaura</a></h2>
       </div>
 
       <nav>

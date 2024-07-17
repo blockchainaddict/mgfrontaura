@@ -3,7 +3,7 @@ function About() {
     <div className="about-wrapper">
       <h3 id="about">About</h3>
       <div className="about-content">
-        <div className="about-description">
+        <div className="about-description inner-margin">
           <p>
             I am a photographer based in Lund, Sweden, and I love taking photos.
             I love to travel, eat and spend time with dogs. As a photographer, I
@@ -29,7 +29,7 @@ function About() {
             special together!
           </p>
         </div>
-        <img src="img/about-img.jpg" alt="" />
+        <img className="about-img" src="img/about-img.jpg" alt="" />
       </div>
     </div>
   );
