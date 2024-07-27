@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import { useState } from "react"
+import './Header.scss';
 
 import Notification from "../Notification/Notification";
-
 
 function Header() {
   const [notification, setNotification] = useState(false);
@@ -27,6 +27,7 @@ function Header() {
 
       <div className="title">
           <h2><a href="/">Magu Frontaura</a></h2>
+          <p className="subtitle">Photography</p>
       </div>
 
       <nav>
@@ -34,7 +35,7 @@ function Header() {
           <li><Link to="/">Home</Link></li>
           <li><a href="#about">About</a></li>
           <li><Link to="/gallery">Gallery</Link></li>
-          <li>Blog</li>
+          <li><Link to="/blog">Blog</Link></li>
           <li onClick={copyToClip}>Contact</li>
         </ul>
       </nav>

@@ -1,3 +1,5 @@
+import './Banner.scss'
+
 import GalleryBig from "../GalleryBig/GalleryBig";
 
 function Banner() {
