@@ -14,6 +14,7 @@ header {
       justify-content: right;
       margin: 0;
       gap: 1rem;
+      font-size: .8em;
 
       li:hover {
         cursor: pointer;
@@ -34,13 +35,15 @@ header {
 
     h2{
         margin: 0;
-        font-family: "Dancing Script", cursive;
+        font-family: "Parisienne", "Dancing Script", cursive;
+        font-weight: 100;
     }
   }
 
   .subtitle {
     font-family: "Overlock";
-    letter-spacing: .1em;
+    font-size: .6em;
+    letter-spacing: .15em;
   }
 }
 

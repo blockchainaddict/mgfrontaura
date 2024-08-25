@@ -33,10 +33,11 @@ function Header() {
       <nav>
         <ul>
           <li><Link to="/">Home</Link></li>
-          <li><a href="#about">About</a></li>
+          <li><a href="#about">About me</a></li>
           <li><Link to="/gallery">Gallery</Link></li>
           <li><Link to="/blog">Blog</Link></li>
-          <li onClick={copyToClip}>Contact</li>
+          <li><Link to="/contact">Contact</Link></li>
+          {/* <li onClick={copyToClip}>Contact</li> */}
         </ul>
       </nav>
     </header>
