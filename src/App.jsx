@@ -10,9 +10,10 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <BrowserRouter>
-      <div className="bg-overlay"></div>
+      {/* <div className="bg-overlay"></div> */}
 
       <Header />
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/gallery" element={<GalleryMain />} />

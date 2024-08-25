@@ -1,3 +1,5 @@
+import './GalleryBig.scss'
+
 function GalleryBig() {
   return (
     <div className="gallery-big-wrapper">

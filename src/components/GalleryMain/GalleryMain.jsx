@@ -1,3 +1,5 @@
+import './GalleryMain.scss';
+
 function GalleryMain() {
   return (
     <div className="gallery-main-wrapper">
