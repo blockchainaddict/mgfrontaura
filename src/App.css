@@ -26,3 +26,10 @@
 .ig-logo{
     width: 30px;
 }
+
+/* Media for BG Img */
+@media screen and (max-width: 946px) {
+    .home-img{
+        top: -169px;
+    }
+  }

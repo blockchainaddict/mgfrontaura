@@ -25,7 +25,7 @@ function Header() {
 
       <div className="social-icons flex-row">
         {/* <a>IG</a> */}
-        <img src={Ig} alt="" className="ig-logo" />
+        <a href="https://www.instagram.com/_maguula/" target="_blank"><img src={Ig} alt="" className="ig-logo" /></a>
       </div>
 
       <div className="title">
