@@ -7,7 +7,7 @@ function About() {
       <div className="about-content">
         <div className="about-description inner-margin">
           <p>
-            About me: Hi! Welcome to my little photographic corner on the web.
+            Hi! Welcome to my little photographic corner on the web.
             I'm Maria Agustina Frontaura, better known as Magu, a passionate
             31-year-old photographer of Italo-Argentinian nationality currently
             based in Lund, Sweden. Since I was 15, I ventured into the world of
