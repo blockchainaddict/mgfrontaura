@@ -40,17 +40,21 @@ function GalleryMain() {
         <h4>Filters</h4>
 
         <div className="filter-subsection">
-          <div className="input-pair">
+          {/* <div className="input-pair">
             <label htmlFor="color">Color</label>
             <input type="checkbox" value="color" onChange={onChangeFilter} />
-          </div>
-          <div className="input-pair">
+          </div> */}
+          {/* <div className="input-pair">
             <label htmlFor="b&w">B&W</label>
             <input type="checkbox" value="b&w" onChange={onChangeFilter} />
+          </div> */}
+          <div className="input-pair">
+            <label htmlFor="animals">Animals</label>
+            <input type="checkbox" value="animals" onChange={onChangeFilter} />
           </div>
           <div className="input-pair">
-            <label htmlFor="animal">Animal</label>
-            <input type="checkbox" value="animal" onChange={onChangeFilter} />
+            <label htmlFor="flowers">Flowers</label>
+            <input type="checkbox" value="flowers" onChange={onChangeFilter} />
           </div>
           <div className="input-pair">
             <label htmlFor="landscape">Landscape</label>
@@ -59,6 +63,22 @@ function GalleryMain() {
               value="landscape"
               onChange={onChangeFilter}
             />
+          </div>
+          <div className="input-pair">
+            <label htmlFor="cities">Cities</label>
+            <input
+              type="checkbox"
+              value="cities"
+              onChange={onChangeFilter}
+            />
+          </div>
+          <div className="input-pair">
+            <label htmlFor="nature">Nature</label>
+            <input type="checkbox" value="nature" onChange={onChangeFilter} />
+          </div>
+          <div className="input-pair">
+            <label htmlFor="architecture">Architecture</label>
+            <input type="checkbox" value="architecture" onChange={onChangeFilter} />
           </div>
         </div>
 
@@ -76,6 +96,7 @@ function GalleryMain() {
                   src={`img/${item.id}.jpg`}
                   alt="img"
                   key={i}
+                  loading="lazy"
                 />
               );
             })
@@ -86,6 +107,7 @@ function GalleryMain() {
                   src={`img/${item.id}.jpg`}
                   alt="img"
                   key={i}
+                  
                 />
               );
             })}
