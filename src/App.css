@@ -1,4 +1,4 @@
-.home-img{
+.home-img {
     width: 100vw;
     height: 100vh;
     position: relative;
@@ -15,7 +15,7 @@
     background-size: cover;
 }
 
-.contact-wrapper{
+.contact-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -23,7 +23,7 @@
     margin-bottom: 4rem;
 }
 
-.call-to-action{
+.call-to-action {
     width: fit-content;
     margin: 2rem auto;
     text-align: center;
@@ -34,13 +34,37 @@
     font-size: 2rem;
 }
 
-.ig-logo{
+.ig-logo {
     width: 30px;
+}
+
+.gallery-mobile {
+    display: none;
+    margin: 2rem 0;
+
+    a {
+        border: 2px solid rgb(255, 235, 188);
+        border-radius: .5rem;
+        padding: .5rem;
+        font-weight: bold;
+        transition: all ease-in-out .3s;
+        
+    }
+}
+
+.gallery-mobile a:hover {
+    background-color: rgb(255, 235, 188);
 }
 
 /* Media for BG Img */
 @media screen and (max-width: 946px) {
-    .home-img{
+    .home-img {
         top: -169px;
     }
-  }
+
+    .gallery-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

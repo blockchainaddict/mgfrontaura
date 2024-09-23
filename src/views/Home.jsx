@@ -8,9 +8,9 @@ function Home() {
   return (
     <>
       {/* <Banner /> */}
-      <div className="home-img">
-      </div>
+      <div className="home-img"></div>
       <About />
+      <div className="gallery-mobile"><a href="/gallery">Go to Gallery</a></div>
       <GalleryBig />
 
       <Contact />
