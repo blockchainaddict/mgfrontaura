@@ -189,4 +189,54 @@ export const photosArr = [
         src: '',
         tags: ['architecture', 'landscape', 'color']
     },
+    {
+        id: 668,
+        src: '',
+        tags: ['nature', 'landscape', 'color']
+    },
+    {
+        id: 738,
+        src: '',
+        tags: ['nature', 'landscape', 'color']
+    },
+    {
+        id: 745,
+        src: '',
+        tags: ['nature', 'landscape', 'color']
+    },
+    {
+        id: 979,
+        src: '',
+        tags: ['nature', 'landscape', 'color']
+    },
+    {
+        id: 983,
+        src: '',
+        tags: ['nature', 'landscape', 'color']
+    },
+    {
+        id: 984,
+        src: '',
+        tags: ['nature', 'landscape', 'color']
+    },
+    {
+        id: 9842,
+        src: '',
+        tags: ['nature', 'landscape', 'color']
+    },
+    {
+        id: 9852,
+        src: '',
+        tags: ['nature', 'landscape', 'color']
+    },
+    {
+        id: 757,
+        src: '',
+        tags: ['nature', 'landscape', 'color']
+    },
+    {
+        id: 843,
+        src: '',
+        tags: ['nature', 'landscape', 'color']
+    },
 ]
