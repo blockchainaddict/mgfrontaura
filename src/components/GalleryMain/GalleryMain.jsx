@@ -80,6 +80,10 @@ function GalleryMain() {
             <label htmlFor="architecture">Architecture</label>
             <input type="checkbox" value="architecture" onChange={onChangeFilter} />
           </div>
+          <div className="input-pair">
+            <label htmlFor="portrait">Portrait</label>
+            <input type="checkbox" value="portrait" onChange={onChangeFilter} />
+          </div>
         </div>
 
         <button onClick={onApplyFilter} className="button-primary">

@@ -200,11 +200,6 @@ export const photosArr = [
         tags: ['nature', 'landscape', 'color']
     },
     {
-        id: 745,
-        src: '',
-        tags: ['nature', 'landscape', 'color']
-    },
-    {
         id: 979,
         src: '',
         tags: ['nature', 'landscape', 'color']
@@ -216,11 +211,6 @@ export const photosArr = [
     },
     {
         id: 984,
-        src: '',
-        tags: ['nature', 'landscape', 'color']
-    },
-    {
-        id: 9842,
         src: '',
         tags: ['nature', 'landscape', 'color']
     },
@@ -238,5 +228,55 @@ export const photosArr = [
         id: 843,
         src: '',
         tags: ['nature', 'landscape', 'color']
+    },
+    {
+        id: 1052,
+        src: '',
+        tags: ['portrait', 'color']
+    },
+    {
+        id: 1053,
+        src: '',
+        tags: ['portrait', 'color']
+    },
+    {
+        id: 56,
+        src: '',
+        tags: ['nature', 'flowers', 'color']
+    },
+    {
+        id: 88,
+        src: '',
+        tags: ['color']
+    },
+    {
+        id: 130,
+        src: '',
+        tags: ['cities', 'architecture', 'color']
+    },
+    {
+        id: 1370,
+        src: '',
+        tags: ['portrait', 'color']
+    },
+    {
+        id: 1414,
+        src: '',
+        tags: ['portrait', 'color']
+    },
+    {
+        id: 1436,
+        src: '',
+        tags: ['portrait', 'color']
+    },
+    {
+        id: 1567,
+        src: '',
+        tags: ['portrait', 'color']
+    },
+    {
+        id: 1580,
+        src: '',
+        tags: ['portrait', 'color']
     },
 ]
