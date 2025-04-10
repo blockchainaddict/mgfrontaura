@@ -8,17 +8,17 @@ function About() {
         <div className="about-description inner-margin">
           <p>
             Hi! Welcome to my little photographic corner on the web.
-            I'm Maria Agustina Frontaura, better known as Magu, a passionate
+            I&apos;m Maria Agustina Frontaura, a passionate
             31-year-old photographer of Italo-Argentinian nationality currently
             based in Lund, Sweden. Since I was 15, I ventured into the world of
             freelance photography, and ever since, each capture has been an
             expression of my connection with the world around me.
           </p>
           <p>
-            On my page, you'll find a fusion of natural landscapes, intimate
+            On my page, you&apos;ll find a fusion of natural landscapes, intimate
             portraits, and the majesty of wildlife. The diversity of life, its
             colors, and emotions are reflected in each image. Photography for me
-            is more than a profession; it's my grounding force, my means to
+            is more than a profession; it&apos;s my grounding force, my means to
             convey what I see and feel. The opportunity to share my unique
             vision of the world fascinates me and nurtures my creativity. This
             space is a reflection of my visual journey. Each image is imbued
@@ -28,7 +28,7 @@ function About() {
             Instagram, both available in the contacts section.
           </p>
           <p>
-            I'm here to answer questions, share stories, or simply chat about
+            I&apos;m here to answer questions, share stories, or simply chat about
             the magic of photography. Thank you for being part of this visual
             experience. Enjoy and welcome to my world through my lens!
           </p>

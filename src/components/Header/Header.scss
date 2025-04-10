@@ -23,6 +23,25 @@ header {
 
   .social-icons{
     align-items: start;
+    
+    .instagram-links {
+      display: flex;
+      gap: 0.5rem;
+      
+      a {
+        display: flex;
+        align-items: center;
+        
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+      
+      .ig-logo {
+        width: 24px;
+        height: 24px;
+      }
+    }
   }
 
   .social-icons,

@@ -279,4 +279,39 @@ export const photosArr = [
         src: '',
         tags: ['portrait', 'color']
     },
+    {
+        id: 9853,
+        src: '',
+        tags: ['portrait', 'color']
+    },
+    {
+        id: 9854,
+        src: '',
+        tags: ['portrait', 'color']
+    },
+    {
+        id: 9855,
+        src: '',
+        tags: ['portrait', 'color']
+    },
+    {
+        id: 9856,
+        src: '',
+        tags: ['portrait', 'color']
+    },
+    {
+        id: 9857,
+        src: '',
+        tags: ['portrait', 'color']
+    },
+    {
+        id: 9858,
+        src: '',
+        tags: ['portrait', 'color']
+    },
+    {
+        id: 9859,
+        src: '',
+        tags: ['portrait', 'color']
+    },
 ]
