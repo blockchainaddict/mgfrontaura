@@ -1,10 +1,14 @@
+import './Contact.scss';
+
 function Contact() {
   return (
     <div className="contact-wrapper">
-      <h3>Stay Connected</h3>
-      <p>Email: agustinafrontaura@gmail.com</p>
-      <p>Instagram (Work): <a href="https://www.instagram.com/agustinafrontaura/" target="_blank">@agustinafrontaura</a></p>
-      <p>Instagram (Personal): <a href="https://www.instagram.com/_maguula/" target="_blank">@_maguula</a></p>
+      <h3>LET&apos;S GET IN TOUCH!</h3>
+      <h4>COLLABORATIONS / QUESTIONS</h4>
+      <p>✉️ agustinafrontaura@gmail.com</p>
+      <p>📞 +34 681 357 670</p>
+      <p>FEEL FREE TO EMAIL ME FOR PROJECTS, PRINTS, OR ANY INQUIRIES.</p>
+      <p>Instagram: <a href="https://www.instagram.com/_maguula/" target="_blank">@_maguula</a></p>
     </div>
   )
 }

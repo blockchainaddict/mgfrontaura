@@ -9,8 +9,8 @@ function About() {
           <p>
             Hi! Welcome to my little photographic corner on the web.
             I&apos;m Maria Agustina Frontaura, a passionate
-            31-year-old photographer of Italo-Argentinian nationality currently
-            based in Lund, Sweden. Since I was 15, I ventured into the world of
+            32-year-old photographer of Italo-Argentinian nationality currently
+            based in Madrid, Spain. Since I was 15, I ventured into the world of
             freelance photography, and ever since, each capture has been an
             expression of my connection with the world around me.
           </p>

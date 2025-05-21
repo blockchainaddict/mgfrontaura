@@ -8,9 +8,6 @@ function Header() {
     <header>
       <div className="social-icons flex-row">
         <div className="instagram-links">
-          <a href="https://www.instagram.com/agustinafrontaura/" target="_blank" title="Work Instagram">
-            <img src={Ig} alt="Work Instagram" className="ig-logo" />
-          </a>
           <a href="https://www.instagram.com/_maguula/" target="_blank" title="Personal Instagram">
             <img src={Ig} alt="Personal Instagram" className="ig-logo" />
           </a>
@@ -27,7 +24,6 @@ function Header() {
           <li><Link to="/">Home</Link></li>
           <li><a href="#about">About me</a></li>
           <li><Link to="/gallery">Gallery</Link></li>
-          <li><Link to="/blog">Blog</Link></li>
           <li><Link to="/contact">Contact</Link></li>
         </ul>
       </nav>
